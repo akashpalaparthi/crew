@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/xml/device_admin_sample.xml -->
+<device-admin xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-policies>
+        <limit-password>
+            <maximum-length>8</maximum-length>
+            <minimum-quality>1</minimum-quality> <!-- 0: none, 1: numeric, 2: alphanumeric, 3: complex -->
+        </limit-password>
+        <wipe-data />
+        <force-lock>
+            <lockscreen-delay>0</lockscreen-delay>
+        </force-lock>
+    </uses-policies>
+</device-admin>
